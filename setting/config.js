@@ -31,7 +31,7 @@ global.autobio = false;
 global.chatbot = false;
 global.autoTyping = false;
 global.autorecording = false;
-global.prefa = ['', '!', '.', ',', '🐤', '🦦'];
+global.prefixz = '.';
 
 // ========= Anti-Delete Feature ========= //
 global.antidelete = 'private'; // Options: 'private', 'chat', or 'off'
