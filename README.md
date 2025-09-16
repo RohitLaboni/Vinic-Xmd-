@@ -33,7 +33,7 @@ src="https://i.ibb.co/XkNgFfrf/malvin-xd.jpg?">
 
 
 ## 🛠️ `BOT INSTALATION`
-> 2: **Get Pair Code**
+> 2: **Get Ssession id Pair Code**
 
 _Deploy the bot and easily connect it to your WhatsApp account by pair code. Bellow🥈_
 
