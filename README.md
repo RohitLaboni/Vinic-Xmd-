@@ -33,7 +33,23 @@ src="https://i.ibb.co/XkNgFfrf/malvin-xd.jpg?">
 
 
 ## 🛠️ `BOT INSTALATION`
+> 2: **Get Pair Code**
 
+_Deploy the bot and easily connect it to your WhatsApp account by pair code. Bellow🥈_
+
+<div align="left">
+  <a href="https://starcore-pairing.onrender.com/pair" target="_blank">
+    <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-Server%20One-green?style=for-the-badge" alt="PAIR CODE"/>
+  </a>
+</div>
+
+<div align="left">
+  <a href="https://starxd-pair.onrender.com/pair" target="_blank">
+    <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-Server%20Two-darkgreen?style=for-the-badge" alt="PAIR CODE"/>
+  </a>
+</div>
+
+> 📥 Quickly connect your WhatsApp by generating a secure pairing code: if inbuilt pairing not working...
 
 
 ### 🚀 Fork the Repository
