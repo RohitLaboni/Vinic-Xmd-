@@ -8,10 +8,13 @@
 // setting/config.js
 const fs = require('fs');
 
-// ========= Setting Owner ========= //
-global.owner = ["256742932677", "256755585369"];
-global.ownername = "ᴋᴇʟᴠɪɴ ᴛᴇᴄʜ";
-global.botname = "ᴠɪɴɪᴄ xᴍᴅ";
+// --- Setting Owner ---?  
+ //  
+global.owner = ["256742932677"];  
+global.sudo = ["256742932677", "256755585369"];// Type additional allowed users here
+//NB: They'll be able to use every functions of the bot without restrictions.
+global.ownername = "KELVIN TECH";  
+global.botname = "VINIC XMD";  
 
 // ========= Setting Channel ========= //
 global.namachannel = "KEVIN";
@@ -23,7 +26,6 @@ global.autoviewstatus = true;
 global.autoreactstatus = true;
 global.antispam = true;
 global.autoread = false;
-global.anticall = "off";
 global.antilink = true;
 global.autoreact = false;
 global.antibug = true;
@@ -36,6 +38,15 @@ global.prefixz = '.';
 // ========= Anti-Delete Feature ========= //
 global.antidelete = 'private'; // Options: 'private', 'chat', or 'off'
 
+// ===== Anticall ===========
+global.anticall = 'off';// options :- 'off', 'decline' or 'block'
+// off - Disables anticall
+// decline - Declines incoming calls
+// Block - Declines and blocks callers
+
+// ======= Anti-Edit ==============
+global.antiedit = 'private'; // options: 'private, 'chat', or 'off'
+
 // ========= Other Global Settings ========= //
 global.welcome = true;
 global.adminevent = true;
@@ -43,7 +54,7 @@ global.chatbot = false;
 
 // ========= Add modeStatus and versions ========= //
 global.modeStatus = "Public";
-global.versions = "1.3.0";
+global.versions = "1.3.1";
 
 // ========= Setting WM ========= //
 global.packname = 'Vinic';
