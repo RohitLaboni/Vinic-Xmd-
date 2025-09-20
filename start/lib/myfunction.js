@@ -1,9 +1,12 @@
 /*
 
-  -! Credits By RuzxxOffc
-  https://wa.me/6288980698613
+  -! Credits By Kelvin tech 
+  https://wa.me/256742932677
+  Thanks to Malvin king
+  Lonlysaam 
 
 */
+// don't modify or trying to clone this file, if you clone I will send to you Vinic bot as a nightmare or night devil 😈 
 
 const { extractMessageContent, getDevice, jidNormalizedUser, proto, delay, getContentType, areJidsSameUser, generateWAMessage } = require("@whiskeysockets/baileys")
 
@@ -59,7 +62,18 @@ exports.getBuffer = async (url, options) => {
     return err
   }
 }
-
+exports.checkBandwidth = async () => {
+let ind = 0;
+let out = 0;
+for (let i of await require("node-os-utils").netstat.stats()) {
+ind += parseInt(i.inputBytes);
+out += parseInt(i.outputBytes);
+}
+return {
+download: exports.bytesToSize(ind),
+upload: exports.bytesToSize(out),
+};
+};
 exports.formatSize = (bytes) => {
 const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
 if (bytes === 0) return '0 Bytes';
@@ -286,7 +300,11 @@ exports.smsg = (conn, m, store) => {
     if (m.message) {
         m.mtype = getContentType(m.message)
         m.msg = (m.mtype == 'viewOnceMessage' ? m.message[m.mtype].message[getContentType(m.message[m.mtype].message)] : m.message[m.mtype])
-        m.body = m.message.conversation || m.msg.caption || m.msg.text || (m.mtype == 'listResponseMessage') && m.msg.singleSelectReply.selectedRowId || (m.mtype == 'buttonsResponseMessage') && m.msg.selectedButtonId || (m.mtype == 'viewOnceMessage') && m.msg.caption || m.text
+ // First define m.msg
+m.mtype = getContentType(m.message)
+m.msg = (m.mtype == 'viewOnceMessage' ? m.message[m.mtype].message[getContentType(m.message[m.mtype].message)] : m.message[m.mtype])
+
+m.body = m.message.conversation || (m.msg?.caption) || m.msg?.text || (m.mype == 'listResponseMessage') && m.msg?.singleSelectReply?.selectedRowId || (m.mtype == 'buttonsResponseMessage') && m.msg?.selectedButtonId || (m.mtype == 'viewOnceMessage') && m.msg.caption || m.text
         let quoted = m.quoted = m.msg.contextInfo ? m.msg.contextInfo.quotedMessage : null
         m.mentionedJid = m.msg.contextInfo ? m.msg.contextInfo.mentionedJid : []
         if (m.quoted) {
