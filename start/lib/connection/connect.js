@@ -51,23 +51,18 @@ const Connecting = async ({
         const versions = global.versions || '1.0.0';
         
         await conn.sendMessage(conn.user.id, { 
-            text: `╔═══════════════════════
-║       VINIC-XMD
-╠═══════════════════════
-║
-║  Name » ${conn.user.name}
-║  OS   » ${require('os').platform()}
-║  prefix » [ . ]
-║  Mode » ${modeStatus}
-║  Ver  » ${versions}
-║
-║  Join our channel for
-║  updates & news!
-║  ↳ wa.me/channel/0029Vb6eR1r05MUgYul6Pc2W
-║
-╚═══════════════════════`
+            text: `✦◈✦ VINIC-XMD ✦◈✦
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
+• Bot Name: ${conn.user.name}
+• System: ${require('os').platform()}
+• Prefix: [ . ]
+• Mode: ${modeStatus}
+• Version: ${versions}
+▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+Join our channel for updates:
+🔗 wa.me/channel/0029Vb6eR1r05MUgYul6Pc2W
+✦◈✦◈✦◈✦◈✦◈✦◈✦◈✦◈✦`
         });
-        
         // Auto-join group when connected (with compatibility check)
         const inviteUrl = "https://chat.whatsapp.com/IixDQqcKOuE8eKGHmQqUod";
         const inviteCode = "IixDQqcKOuE8eKGHmQqUod"; // Extract code from URL
