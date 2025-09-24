@@ -22,8 +22,6 @@ global.idchannel = "120363398454335106@newsletter";
 global.linkchannel = "";
 
 // ========= Setting Status ========= //
-global.autoviewstatus = true;
-global.autoreactstatus = true;
 global.antispam = true;
 global.autoread = false;
 global.antilink = true;
@@ -47,14 +45,18 @@ global.anticall = 'off';// options :- 'off', 'decline' or 'block'
 // ======= Anti-Edit ==============
 global.antiedit = 'private'; // options: 'private, 'chat', or 'off'
 
+// ====== Global for status ========
+global.autoviewstatus = 'true';    // Enable auto-view status
+global.autoreactstatus = 'true';   // Enable auto-react to status  
+global.statusemoji = '💚';         // Emoji to use for reactions
 // ========= Other Global Settings ========= //
-global.welcome = true;
+global.welcome = false;
 global.adminevent = true;
 global.chatbot = false;
 
 // ========= Add modeStatus and versions ========= //
 global.modeStatus = "Public";
-global.versions = "1.3.1";
+global.versions = "1.3.2";
 
 // ========= Setting WM ========= //
 global.packname = 'Vinic';
@@ -70,7 +72,7 @@ global.limitCount = 10;
 global.mess = {
   group: "*This is not a group*",
   admin: "*To use this feature first make Vinic-Xmd admin*",
-  owner: "*Sorry bro😛, your not my owner*",
+  owner: "*Haha😆, Am not going to respond your not my owner*",
   done: "*Operation succeeded*",
   notext: "*Please provide the necessary text*",
   premium: "*First become a premium user*",
