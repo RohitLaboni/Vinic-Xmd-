@@ -50,18 +50,18 @@ global.autoviewstatus = 'true';    // Enable auto-view status
 global.autoreactstatus = 'true';   // Enable auto-react to status  
 global.statusemoji = '💚';         // Emoji to use for reactions
 // ========= Other Global Settings ========= //
-global.welcome = false;
+global.welcome = true;
 global.adminevent = true;
 global.chatbot = false;
 
 // ========= Add modeStatus and versions ========= //
 global.modeStatus = "Public";
-global.versions = "1.3.2";
+global.versions = "1.3.1";
 
 // ========= Setting WM ========= //
 global.packname = 'Vinic';
 global.author = 'Xmd';
-
+global.wm = 'Vinic-Xmd is awesome 🔥';
 global.gcount = {
   prem: 500,
   user: 15
@@ -72,7 +72,7 @@ global.limitCount = 10;
 global.mess = {
   group: "*This is not a group*",
   admin: "*To use this feature first make Vinic-Xmd admin*",
-  owner: "*Haha😆, Am not going to respond your not my owner*",
+  owner: "*Haha😆, I will not respond because your not my owner*",
   done: "*Operation succeeded*",
   notext: "*Please provide the necessary text*",
   premium: "*First become a premium user*",
