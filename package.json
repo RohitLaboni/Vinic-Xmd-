@@ -20,6 +20,7 @@
         "@dark-yasiya/yt-dl.js": "1.0.5",
         "@ffmpeg-installer/ffmpeg": "^1.1.0",
         "@hapi/boom": "^10.0.0", 
+        "adm-zip": "^0.5.16",
         "jimp": "*",
         "@whiskeysockets/baileys": "npm:@rexxhayanasi/elaina-bail",
         "acrcloud": "^1.4.0",
