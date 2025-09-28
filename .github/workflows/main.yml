@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    @page {
+      size:A4;
+      margin:1cm;
+    }
+    body {
+      width: 210mm; 
+      height: 297mm;
+      font-size: 12pt;
+    }
+  </style>
+<title>My Resume</title>
+<style>
+   h1 {
+       Text-align: center;
+       Text-decoration: Underline;
+       Font-weight: Bold;
+}
+.photo {
+   text-align: right;
+   margin-bottom: -220px;
+}
+table{
+  width:100%;
+  border-collapse: collapse;
+  margin: 20px auto
+}
+th,td{
+   border:1px solid black;
+   padding: 8px;
+   text-align:left;
+  }
+</style>
+</head>
+<body>
+
+<h1>Resume</h1>
+<div class="photo">
+<img src="Asish.jpg" alt="Asish"width="150">
+</div>
+
+<div class="right-align">
+  <p><strong>Name:</strong>Asish Maity </p>
+  <p><strong>Email:</Strong>asishmaity@gmail.com</p>
+  <p><strong>Mobile:99072 61944</strong></p>
+  <p><strong>Address:</strong>pingla, Paschim medinapur</p>
+  <p><strong>Pin:</strong>721140</p>
+</div>
+<h2>Educational Details</h2>
+<table>
+  <tr>
+    <th>Degree</th>
+    <th>Institution</th>
+    <th>Year</th>
+    <th>Percentage</th>
+</tr>
+<tr>
+   <td>Madhyamik Examination</td>
+   <td>Chhotakhelna s.s Vidyamandir</td>
+   <td>2022</td>
+   <td>61.57%</td>
+</tr>
+<tr>
+   <td>H.S</td>
+   <td>Chhotakhelna s.s Vidyamandir </td>
+   <td>2024</td>
+   <td>69.8%</td>
+</tr>
+<tr>
+  <td>D.C.A</td>
+  <td>Webel Computer senter</td>
+  <td>2024</td>
+  <td>94.12%</td>
+</tr>
+<tr>
+   <td>E.E</td>
+   <td>Itahar Govermant Polytechnic Collage</td>
+   <td>2027</td>
+   <td>--%</td>
+</tr>
+</table>
+
+<h2>Technical Skills</h2>
+<ul>
+<li>HTML</li>
+<li>Python</li>
+<li>Webpage Designing</li>
+<li>Excel and Access</li>
+<li>Tally</li>
+<li>PowerPoint</li>
+</ul>
+
+<h2>Personal Information</h2>
+<table>
+<tr>
+  <th>Date of Birth</th>
+  <td>01-08-2005</td>
+</tr>
+<tr>
+  <th>Gender</th>
+  <td>Male</td>
+</tr>
+<tr>
+  <th>Material Status</th>
+  <td>Single</td>
+</tr>
+<tr>
+  <th>Nationality</th>
+  <td>Indian</td>
+</tr>
+<tr>
+  <th>Languages</th>
+  <td>Bengali,English,Hindi</td>
+</tr>
+<tr>
+  <th>Hobbies</th>
+  <td>Cycleing,video gaming,cooking</td>
+</tr>
+</table>
+
+</body>
+</html>
